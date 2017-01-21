@@ -1,3 +1,10 @@
+h1 {
+  color: blue;
+}
+
 body {
-  background-color: blue;
+  width: 55%;
+  background-color: #92C0C8;
+  margin-left: 100px;
+  margin-right: 100px;
 }
