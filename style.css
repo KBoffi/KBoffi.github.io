@@ -1,10 +1,64 @@
-h1 {
-  color: blue;
+div.center-photos {
+  text-align: center;
 }
 
-body {
-  width: 55%;
-  background-color: #92C0C8;
-  margin-left: 100px;
-  margin-right: 100px;
-}
+img#framed-kaiseki {
+  border-width: 5px;
+  border-color: steelblue;
+  border-style: solid;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  text-align: center;
+  }
+
+div.callout {
+    width: 290px;
+    display: inline-block;
+    vertical-align: text-top;
+    margin: 30px;
+    padding: 2px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+h2#callout-head {
+    color: steelblue;
+  }
+
+a:visited {
+    color: turquoise;
+  }
+
+h1,h2.header {
+    color: coral;
+  }
+
+section.main-content {
+    display: inline-block;
+    width: 750px;
+    vertical-align: text-top;
+    margin: 30px;
+    padding: 2px;
+    font-family: Georgia, serif;
+  }
+
+th {
+    color: coral;
+  }
+
+h1.overlaid-header {
+    color: coral;
+    background-image: url(ryokan.jpg);
+    height: 300px;
+  }
+
+  body.etiquette {
+    margin: 0, 30px, 30px, 30px;
+    padding: 2px;
+    font-family: Georgia, serif;
+  }
+
+
+ 
