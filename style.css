@@ -54,11 +54,17 @@ h1.overlaid-header {
     height: 300px;
   }
 
-  body.etiquette {
+body.etiquette {
     margin: 0, 30px, 30px, 30px;
     padding: 2px;
     font-family: Georgia, serif;
   }
+
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 0.5em;
+  }
+}
 
 
  
